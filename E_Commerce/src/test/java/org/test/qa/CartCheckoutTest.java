@@ -21,10 +21,6 @@ public class CartCheckoutTest extends ExtentManager {
 
     CartCheckoutPage cart;
 
-	/*
-	 * // LOGGER (NO sysout) private static final Logger log =
-	 * Logger.getLogger(CartCheckoutTest.class);
-	 */
     // ================= SETUP =================
     @BeforeClass
     public void setup() throws Exception {

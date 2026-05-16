@@ -20,8 +20,7 @@ public class HomePage extends BaseTest {
         actions = new Actions(driver);
     }
 
-    // ================= EXTRA STABILITY FIX =================
-    // Ensures DOM is ready before any interaction
+   
     private void waitForPageReady() {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.tagName("body")));
     }

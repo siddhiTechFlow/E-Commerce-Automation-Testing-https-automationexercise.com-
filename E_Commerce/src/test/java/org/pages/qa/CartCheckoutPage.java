@@ -36,10 +36,9 @@ public class CartCheckoutPage {
     By searchBox = By.id("search_product");
     By searchBtn = By.id("submit_search");
 
-    // FIX: more stable product container
+   
     By productCards = By.xpath("//div[contains(@class,'product-image-wrapper')]");
 
-    // FIX: scoped button inside product card (IMPORTANT)
     By addToCartInsideCard = By.xpath(".//a[contains(text(),'Add to cart')]");
 
     By viewCartBtn = By.xpath("//u[text()='View Cart']");
@@ -86,7 +85,6 @@ public class CartCheckoutPage {
 
         actions.moveToElement(first).pause(Duration.ofMillis(800)).perform();
 
-        // FIX: search button INSIDE first product card (NOT global list)
         WebElement btn = first.findElement(addToCartInsideCard);
 
         wait.until(ExpectedConditions.elementToBeClickable(btn));
@@ -120,14 +118,13 @@ public class CartCheckoutPage {
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(productCards));
     }
 
-    // ================= BRAND FIXED =================
+    // ================= BRAND =================
     public void navigateToBrand(String brand) {
 
         killAds();
 
         driver.get("https://automationexercise.com/products");
 
-        // FIX: scroll to brands section first
         WebElement brandSection = wait.until(
                 ExpectedConditions.presenceOfElementLocated(
                         By.xpath("//h2[contains(text(),'Brands')]")
