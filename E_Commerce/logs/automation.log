@@ -8717,3 +8717,141 @@ Session ID: 81ee3e65c054135ff038857eed31cc85
 2026-05-136 00:29:07 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@413d2cd1: 5 ms
 2026-05-136 00:29:07 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@46c10083: 4 ms
 2026-05-136 00:29:07 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@28e8888d: 0 ms
+2026-05-136 10:14:24 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Git Repo\E_Commerce\testng.xml] otherwise TestNG may fail or not work as expected.
+2026-05-136 10:14:24 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Git Repo\E_Commerce\testng.xml
+
+2026-05-136 10:14:36 [main] INFO  org.utils.qa.Log - Browser launched successfully
+2026-05-136 10:14:39 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:14:39 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_001
+2026-05-136 10:14:39 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login functionality with valid email and valid password
+2026-05-136 10:14:39 [main] INFO  org.utils.qa.Log - TEST TYPE : positive
+2026-05-136 10:14:49 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_001
+2026-05-136 10:14:49 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:14:49 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:14:49 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_002
+2026-05-136 10:14:49 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login functionality with valid email and invalid password
+2026-05-136 10:14:49 [main] INFO  org.utils.qa.Log - TEST TYPE : negative
+2026-05-136 10:14:52 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_002
+2026-05-136 10:14:52 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:14:52 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:14:52 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_003
+2026-05-136 10:14:52 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login functionality with invalid email and valid password
+2026-05-136 10:14:52 [main] INFO  org.utils.qa.Log - TEST TYPE : negative
+2026-05-136 10:14:54 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_003
+2026-05-136 10:14:54 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:14:54 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:14:54 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_004
+2026-05-136 10:14:54 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login functionality with invalid email and invalid password 
+2026-05-136 10:14:54 [main] INFO  org.utils.qa.Log - TEST TYPE : negative
+2026-05-136 10:14:57 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_004
+2026-05-136 10:14:57 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:14:57 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:14:57 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_005
+2026-05-136 10:14:57 [main] INFO  org.utils.qa.Log - SCENARIO : Verify validation when password field is left empty
+2026-05-136 10:14:57 [main] INFO  org.utils.qa.Log - TEST TYPE : validation
+2026-05-136 10:14:59 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_005
+2026-05-136 10:14:59 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:14:59 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:14:59 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_006
+2026-05-136 10:14:59 [main] INFO  org.utils.qa.Log - SCENARIO : Verify validation when email field is left empty
+2026-05-136 10:14:59 [main] INFO  org.utils.qa.Log - TEST TYPE : validation
+2026-05-136 10:15:01 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_006
+2026-05-136 10:15:01 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:01 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:01 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_007
+2026-05-136 10:15:01 [main] INFO  org.utils.qa.Log - SCENARIO : Verify validation when both email and password fields are left empty
+2026-05-136 10:15:01 [main] INFO  org.utils.qa.Log - TEST TYPE : validation
+2026-05-136 10:15:03 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_007
+2026-05-136 10:15:03 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:03 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:03 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_008
+2026-05-136 10:15:03 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login with invalid email format
+2026-05-136 10:15:03 [main] INFO  org.utils.qa.Log - TEST TYPE : validation
+2026-05-136 10:15:04 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_008
+2026-05-136 10:15:04 [main] ERROR org.utils.qa.Log - ASSERTION FAILED : FAILED: Validation message not displayed for TC_008 expected [true] but found [false]
+2026-05-136 10:15:04 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:04 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_009
+2026-05-136 10:15:04 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login with password below minimum character limit
+2026-05-136 10:15:04 [main] INFO  org.utils.qa.Log - TEST TYPE : boundary
+2026-05-136 10:15:07 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_009
+2026-05-136 10:15:07 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:07 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:07 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_010
+2026-05-136 10:15:07 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login with password exceeding maximum allowed character limit
+2026-05-136 10:15:07 [main] INFO  org.utils.qa.Log - TEST TYPE : boundary
+2026-05-136 10:15:10 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_010
+2026-05-136 10:15:10 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:10 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:10 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_011
+2026-05-136 10:15:10 [main] INFO  org.utils.qa.Log - SCENARIO : Verify application security against SQL Injection attack
+2026-05-136 10:15:10 [main] INFO  org.utils.qa.Log - TEST TYPE : security
+2026-05-136 10:15:12 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_011
+2026-05-136 10:15:12 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:12 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:12 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_012
+2026-05-136 10:15:12 [main] INFO  org.utils.qa.Log - SCENARIO : Verify successful login after previous failed login attempts
+2026-05-136 10:15:12 [main] INFO  org.utils.qa.Log - TEST TYPE : regression
+2026-05-136 10:15:20 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_012
+2026-05-136 10:15:20 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:20 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:20 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_013
+2026-05-136 10:15:20 [main] INFO  org.utils.qa.Log - SCENARIO : Verify Enter key login
+2026-05-136 10:15:20 [main] INFO  org.utils.qa.Log - TEST TYPE : usability
+2026-05-136 10:15:26 [main] INFO  org.utils.qa.Log - TEST PASSED : TC_013
+2026-05-136 10:15:26 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:26 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-136 10:15:26 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_014
+2026-05-136 10:15:26 [main] INFO  org.utils.qa.Log - SCENARIO : Verify Forgot Password functionality
+2026-05-136 10:15:26 [main] INFO  org.utils.qa.Log - TEST TYPE : bug
+2026-05-136 10:15:28 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_014
+2026-05-136 10:15:28 [main] ERROR org.utils.qa.Log - ASSERTION FAILED : Forgot Password feature not implemented
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 23 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Siddhi\AppData\Local\Temp\testng-eclipse-1546121133\testng-customsuite.xml
+
+2026-05-136 10:16:01 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2026-05-136 10:16:01 [main] INFO  org.utils.qa.Log - Starting test setup and initializing driver
+2026-05-136 10:16:10 [main] INFO  org.utils.qa.Log - Navigating to login page
+2026-05-136 10:16:10 [main] INFO  org.utils.qa.Log - Entering login credentials
+2026-05-136 10:16:11 [main] INFO  org.utils.qa.Log - Clicking login button
+2026-05-136 10:16:15 [main] INFO  org.utils.qa.Log - Login successful and home page loaded
+2026-05-136 10:16:15 [main] INFO  org.utils.qa.Log - Test started: guestUserBlocked
+2026-05-136 10:16:16 [main] INFO  org.utils.qa.Log - Cookies cleared and navigated to home page
+2026-05-136 10:16:16 [main] ERROR org.utils.qa.Log - Test FAILED: guestUserBlocked - capturing screenshot
+2026-05-136 10:16:16 [main] INFO  org.utils.qa.Log - Closing browser and ending test suite
+2026-05-136 10:16:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2cfa2c4f: 67 ms
+2026-05-136 10:16:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5e8cda75: 14 ms
+2026-05-136 10:16:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@23eff5d1: 10 ms
+2026-05-136 10:16:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@778d82e9: 7 ms
+2026-05-136 10:16:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@71ad3d8a: 10 ms
+2026-05-136 10:16:17 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@47af099e: 0 ms

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-18T00:51:40 IST" name="Default suite" finished-at="2026-05-18T00:52:06 IST" duration-ms="25438">
+    <groups>
+    </groups>
+    <test started-at="2026-05-18T00:51:40 IST" name="Default test" finished-at="2026-05-18T00:52:06 IST" duration-ms="25438">
+      <class name="org.test.qa.Guru99_LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.test.qa.Guru99_LoginTest@7c7b252e]" started-at="2026-05-18T00:51:40 IST" name="setUp" finished-at="2026-05-18T00:51:54 IST" duration-ms="13474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_001()[pri:0, instance:org.test.qa.Guru99_LoginTest@7c7b252e]" started-at="2026-05-18T00:51:54 IST" name="TC_001" finished-at="2026-05-18T00:52:06 IST" duration-ms="11787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.test.qa.Guru99_LoginTest@7c7b252e]" started-at="2026-05-18T00:52:06 IST" name="tearDown" finished-at="2026-05-18T00:52:06 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.test.qa.Guru99_LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -10,11 +10,10 @@
           <include name="captureResult"/>
           <include name="createTest"/>
           <include name="setupReport"/>
-          <include name="screenshot"/>
           <include name="setup"/>
-          <include name="brandFlow"/>
-          <include name="verifyQuantity"/>
+          <include name="screenshot"/>
           <include name="flushReport"/>
+          <include name="guestUserBlocked"/>
         </methods>
       </class> <!-- org.test.qa.CartCheckoutTest -->
     </classes>

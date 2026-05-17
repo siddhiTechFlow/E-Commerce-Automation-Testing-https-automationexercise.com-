@@ -43,3 +43,5 @@ public class ScreenshotUtility extends BaseTest {
 		return destination;
 	}
 }
+
+

@@ -1,176 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+<testng-results ignored="4" total="5" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-16T00:27:31 IST" name="Default suite" finished-at="2026-05-16T00:29:07 IST" duration-ms="96169">
+  <suite started-at="2026-05-16T10:16:01 IST" name="Default suite" finished-at="2026-05-16T10:16:16 IST" duration-ms="15088">
     <groups>
     </groups>
-    <test started-at="2026-05-16T00:27:31 IST" name="Default test" finished-at="2026-05-16T00:29:07 IST" duration-ms="96169">
+    <test started-at="2026-05-16T10:16:01 IST" name="Default test" finished-at="2026-05-16T10:16:16 IST" duration-ms="15088">
       <class name="org.test.qa.CartCheckoutTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:27:31 IST" name="setupReport" finished-at="2026-05-16T00:27:31 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:org.test.qa.CartCheckoutTest@7e22550a]" started-at="2026-05-16T10:16:01 IST" name="setupReport" finished-at="2026-05-16T10:16:01 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:27:31 IST" name="setup" finished-at="2026-05-16T00:27:39 IST" duration-ms="7926" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.test.qa.CartCheckoutTest@7e22550a]" started-at="2026-05-16T10:16:01 IST" name="setup" finished-at="2026-05-16T10:16:15 IST" duration-ms="13827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:27:39 IST" name="createTest" finished-at="2026-05-16T00:27:39 IST" duration-ms="16" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void org.test.qa.CartCheckoutTest.addProductUsingSearch()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createTest -->
-        <test-method signature="addProductUsingSearch()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:27:39 IST" name="addProductUsingSearch" finished-at="2026-05-16T00:27:52 IST" duration-ms="12822" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProductUsingSearch -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:27:52 IST" name="screenshot" finished-at="2026-05-16T00:27:52 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addProductUsingSearch status=SUCCESS method=CartCheckoutTest.addProductUsingSearch()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshot -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:27:52 IST" name="captureResult" finished-at="2026-05-16T00:27:52 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=addProductUsingSearch status=SUCCESS method=CartCheckoutTest.addProductUsingSearch()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:27:52 IST" name="createTest" finished-at="2026-05-16T00:27:52 IST" duration-ms="15" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void org.test.qa.CartCheckoutTest.brandFlow()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createTest -->
-        <test-method signature="brandFlow()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:27:52 IST" name="brandFlow" finished-at="2026-05-16T00:28:16 IST" duration-ms="24565" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element found by By.xpath: //a[contains(@href,'brand') and contains(text(),'POLO')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'brand') and contains(text(),'POLO')]"}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.54, fedcm:accounts: true, goog:processID: 23332, ms:edgeOptions: {debuggerAddress: localhost:59097}, msedge: {msedgedriverVersion: 148.0.3967.54 (c994e204927e..., userDataDir: C:\Users\Siddhi\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59097/devtoo..., se:cdpVersion: 148.0.3967.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: af2399a4087be3541da1c71b3974fb03]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.xpath: //a[contains(@href,'brand') and contains(text(),'POLO')] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'brand') and contains(text(),'POLO')]"}.
-(tried for 20 seconds with 500 milliseconds interval)
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.54, fedcm:accounts: true, goog:processID: 23332, ms:edgeOptions: {debuggerAddress: localhost:59097}, msedge: {msedgedriverVersion: 148.0.3967.54 (c994e204927e..., userDataDir: C:\Users\Siddhi\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59097/devtoo..., se:cdpVersion: 148.0.3967.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: af2399a4087be3541da1c71b3974fb03
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at org.pages.qa.CartCheckoutPage.navigateToBrand(CartCheckoutPage.java:141)
-at org.test.qa.CartCheckoutTest.brandFlow(CartCheckoutTest.java:125)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- brandFlow -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:16 IST" name="screenshot" finished-at="2026-05-16T00:28:16 IST" duration-ms="160" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=brandFlow status=FAILURE method=CartCheckoutTest.brandFlow()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshot -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:16 IST" name="captureResult" finished-at="2026-05-16T00:28:16 IST" duration-ms="122" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=brandFlow status=FAILURE method=CartCheckoutTest.brandFlow()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method signature="categoryFlow()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:16 IST" name="categoryFlow" finished-at="2026-05-16T00:28:30 IST" duration-ms="13193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- categoryFlow -->
-        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:16 IST" name="createTest" finished-at="2026-05-16T00:28:16 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void org.test.qa.CartCheckoutTest.categoryFlow()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createTest -->
-        <test-method signature="guestUserBlocked()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:30 IST" name="guestUserBlocked" finished-at="2026-05-16T00:28:37 IST" duration-ms="6993" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guestUserBlocked -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:30 IST" name="captureResult" finished-at="2026-05-16T00:28:30 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=categoryFlow status=SUCCESS method=CartCheckoutTest.categoryFlow()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:30 IST" name="createTest" finished-at="2026-05-16T00:28:30 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:org.test.qa.CartCheckoutTest@7e22550a]" started-at="2026-05-16T10:16:15 IST" name="createTest" finished-at="2026-05-16T10:16:15 IST" duration-ms="21" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -181,74 +26,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTest -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:30 IST" name="screenshot" finished-at="2026-05-16T00:28:30 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=categoryFlow status=SUCCESS method=CartCheckoutTest.categoryFlow()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshot -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:37 IST" name="screenshot" finished-at="2026-05-16T00:28:37 IST" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=guestUserBlocked status=SUCCESS method=CartCheckoutTest.guestUserBlocked()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshot -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:37 IST" name="captureResult" finished-at="2026-05-16T00:28:37 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=guestUserBlocked status=SUCCESS method=CartCheckoutTest.guestUserBlocked()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:37 IST" name="createTest" finished-at="2026-05-16T00:28:37 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void org.test.qa.CartCheckoutTest.verifyQuantity()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createTest -->
-        <test-method signature="verifyQuantity()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:28:37 IST" name="verifyQuantity" finished-at="2026-05-16T00:29:07 IST" duration-ms="29988" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="guestUserBlocked()[pri:0, instance:org.test.qa.CartCheckoutTest@7e22550a]" started-at="2026-05-16T10:16:15 IST" name="guestUserBlocked" finished-at="2026-05-16T10:16:16 IST" duration-ms="891" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element found by By.id: address_delivery, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#address_delivery"}.
-(tried for 20 seconds with 500 milliseconds interval)
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.54)
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.54, fedcm:accounts: true, goog:processID: 23332, ms:edgeOptions: {debuggerAddress: localhost:59097}, msedge: {msedgedriverVersion: 148.0.3967.54 (c994e204927e..., userDataDir: C:\Users\Siddhi\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59097/devtoo..., se:cdpVersion: 148.0.3967.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: af2399a4087be3541da1c71b3974fb03]]>
+Command: [a5efea5fbd7fd2eef29bf2f2d6110e12, get {url=https://automationexercise.com/products}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.54, fedcm:accounts: true, goog:processID: 22248, ms:edgeOptions: {debuggerAddress: localhost:62371}, msedge: {msedgedriverVersion: 148.0.3967.54 (c994e204927e..., userDataDir: C:\Users\Siddhi\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62371/devtoo..., se:cdpVersion: 148.0.3967.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5efea5fbd7fd2eef29bf2f2d6110e12]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.id: address_delivery, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#address_delivery"}.
-(tried for 20 seconds with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.54)
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.54, fedcm:accounts: true, goog:processID: 23332, ms:edgeOptions: {debuggerAddress: localhost:59097}, msedge: {msedgedriverVersion: 148.0.3967.54 (c994e204927e..., userDataDir: C:\Users\Siddhi\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59097/devtoo..., se:cdpVersion: 148.0.3967.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: af2399a4087be3541da1c71b3974fb03
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at org.pages.qa.CartCheckoutPage.isAddressDisplayed(CartCheckoutPage.java:162)
-at org.test.qa.CartCheckoutTest.checkoutFlow(CartCheckoutTest.java:68)
-at org.test.qa.CartCheckoutTest.verifyQuantity(CartCheckoutTest.java:147)
+Command: [a5efea5fbd7fd2eef29bf2f2d6110e12, get {url=https://automationexercise.com/products}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.54, fedcm:accounts: true, goog:processID: 22248, ms:edgeOptions: {debuggerAddress: localhost:62371}, msedge: {msedgedriverVersion: 148.0.3967.54 (c994e204927e..., userDataDir: C:\Users\Siddhi\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62371/devtoo..., se:cdpVersion: 148.0.3967.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5efea5fbd7fd2eef29bf2f2d6110e12
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:374)
+at org.pages.qa.CartCheckoutPage.goToProducts(CartCheckoutPage.java:56)
+at org.test.qa.CartCheckoutTest.guestUserBlocked(CartCheckoutTest.java:156)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -277,41 +87,102 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyQuantity -->
-        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:29:07 IST" name="screenshot" finished-at="2026-05-16T00:29:07 IST" duration-ms="61" status="PASS">
+        </test-method> <!-- guestUserBlocked -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@7e22550a]" started-at="2026-05-16T10:16:16 IST" name="screenshot" finished-at="2026-05-16T10:16:16 IST" duration-ms="35" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyQuantity status=FAILURE method=CartCheckoutTest.verifyQuantity()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6] output={null}]]]>
+                <![CDATA[[TestResult name=guestUserBlocked status=FAILURE method=CartCheckoutTest.guestUserBlocked()[pri:0, instance:org.test.qa.CartCheckoutTest@7e22550a] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.54)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a5efea5fbd7fd2eef29bf2f2d6110e12, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.54, fedcm:accounts: true, goog:processID: 22248, ms:edgeOptions: {debuggerAddress: localhost:62371}, msedge: {msedgedriverVersion: 148.0.3967.54 (c994e204927e..., userDataDir: C:\Users\Siddhi\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62371/devtoo..., se:cdpVersion: 148.0.3967.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5efea5fbd7fd2eef29bf2f2d6110e12]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=148.0.3967.54)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a5efea5fbd7fd2eef29bf2f2d6110e12, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 148.0.3967.54, fedcm:accounts: true, goog:processID: 22248, ms:edgeOptions: {debuggerAddress: localhost:62371}, msedge: {msedgedriverVersion: 148.0.3967.54 (c994e204927e..., userDataDir: C:\Users\Siddhi\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62371/devtoo..., se:cdpVersion: 148.0.3967.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5efea5fbd7fd2eef29bf2f2d6110e12
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:692)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:395)
+at org.utils.qa.ScreenshotUtility.captureScreenshot(ScreenshotUtility.java:35)
+at org.test.qa.CartCheckoutTest.screenshot(CartCheckoutTest.java:186)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:29:07 IST" name="captureResult" finished-at="2026-05-16T00:29:07 IST" duration-ms="69" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyQuantity status=FAILURE method=CartCheckoutTest.verifyQuantity()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="captureResult(org.testng.ITestResult)[pri:0, instance:org.test.qa.CartCheckoutTest@7e22550a]" started-at="2026-05-16T10:16:16 IST" name="captureResult" finished-at="2026-05-16T10:16:16 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:29:07 IST" name="tearDown" finished-at="2026-05-16T00:29:07 IST" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.test.qa.CartCheckoutTest@7e22550a]" started-at="2026-05-16T10:16:16 IST" name="tearDown" finished-at="2026-05-16T10:16:16 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:29:07 IST" name="closeBrowser" finished-at="2026-05-16T00:29:07 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.test.qa.CartCheckoutTest@7e22550a]" started-at="2026-05-16T10:16:16 IST" name="closeBrowser" finished-at="2026-05-16T10:16:16 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:org.test.qa.CartCheckoutTest@3f0846c6]" started-at="2026-05-16T00:29:07 IST" name="flushReport" finished-at="2026-05-16T00:29:07 IST" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:org.test.qa.CartCheckoutTest@7e22550a]" started-at="2026-05-16T10:16:17 IST" name="flushReport" finished-at="2026-05-16T10:16:17 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
