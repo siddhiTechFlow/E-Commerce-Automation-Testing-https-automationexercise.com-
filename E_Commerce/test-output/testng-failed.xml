@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="org.test.qa.CartCheckoutTest">
         <methods>
@@ -10,12 +10,36 @@
           <include name="captureResult"/>
           <include name="createTest"/>
           <include name="setupReport"/>
-          <include name="setup"/>
           <include name="screenshot"/>
+          <include name="setup"/>
+          <include name="brandFlow"/>
           <include name="flushReport"/>
-          <include name="guestUserBlocked"/>
+          <include name="verifyQuantity"/>
+          <include name="addProductUsingSearch"/>
         </methods>
       </class> <!-- org.test.qa.CartCheckoutTest -->
+      <class name="org.test.qa.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="loginTest" invocation-numbers="0 7 13"/>
+          <include name="captureResult"/>
+          <include name="createTest"/>
+          <include name="setupReport"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- org.test.qa.LoginTest -->
+      <class name="org.test.qa.HomePageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="captureResult"/>
+          <include name="createTest"/>
+          <include name="setupReport"/>
+          <include name="flushReport"/>
+          <include name="setUp"/>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- org.test.qa.HomePageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

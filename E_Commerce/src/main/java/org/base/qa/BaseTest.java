@@ -51,7 +51,7 @@ public class BaseTest {
 		if (bws.equals("Edge")) {
 			driver = new EdgeDriver();
 		} else if (bws.equals("Chrome")) {
-			driver = new ChromeDriver(options);
+			driver = new ChromeDriver();
 		} else if (bws.equals("Safari")) {
 			driver = new SafariDriver();
 		} else if (bws.equals("FireFox")) {

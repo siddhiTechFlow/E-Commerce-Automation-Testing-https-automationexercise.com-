@@ -10,18 +10,19 @@
           <include name="captureResult"/>
           <include name="createTest"/>
           <include name="setupReport"/>
+          <include name="screenshot"/>
           <include name="setup"/>
           <include name="brandFlow"/>
-          <include name="screenshot"/>
-          <include name="verifyQuantity"/>
           <include name="flushReport"/>
+          <include name="verifyQuantity"/>
+          <include name="addProductUsingSearch"/>
         </methods>
       </class> <!-- org.test.qa.CartCheckoutTest -->
       <class name="org.test.qa.LoginTest">
         <methods>
           <include name="setup"/>
           <include name="closeBrowser"/>
-          <include name="loginTest"/>
+          <include name="loginTest" invocation-numbers="0 7 13"/>
           <include name="captureResult"/>
           <include name="createTest"/>
           <include name="setupReport"/>
@@ -36,7 +37,7 @@
           <include name="setupReport"/>
           <include name="flushReport"/>
           <include name="setUp"/>
-          <include name="homePageTest" invocation-numbers="1 4 5 6 7 8 9"/>
+          <include name="homePageTest"/>
         </methods>
       </class> <!-- org.test.qa.HomePageTest -->
     </classes>

@@ -8,12 +8,16 @@
           <include name="tearDown"/>
           <include name="closeBrowser"/>
           <include name="captureResult"/>
+          <include name="categoryFlow"/>
           <include name="createTest"/>
           <include name="setupReport"/>
+          <include name="brandFlow"/>
           <include name="setup"/>
-          <include name="screenshot"/>
+          <include name="verifyQuantity"/>
           <include name="flushReport"/>
+          <include name="screenshot"/>
           <include name="guestUserBlocked"/>
+          <include name="addProductUsingSearch"/>
         </methods>
       </class> <!-- org.test.qa.CartCheckoutTest -->
     </classes>
