@@ -1,7 +1,9 @@
 package org.test.qa;
 
 import java.io.IOException;
+import java.time.Duration;
 
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.pages.qa.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -72,29 +74,23 @@ public class LoginTest extends ExtentManager {
 
 			// VALIDATION TEST CASES
 			else if(expectedResult.equalsIgnoreCase("validation")) {
-
+			    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			    
 			    String validationMessage = "";
-
-			    // EMPTY PASSWORD
+			    
 			    if(password.isEmpty()) {
-
-			        validationMessage =
-			                lp.getPasswordValidationMessage();
+			        // Wait for validation message to appear
+			        wait.until(d -> lp.getPasswordValidationMessage().length() > 0);
+			        validationMessage = lp.getPasswordValidationMessage();
 			    }
-
-			    // EMPTY EMAIL
 			    else if(email.isEmpty()) {
-
-			        validationMessage =
-			                lp.getEmailValidationMessage();
+			        wait.until(d -> lp.getEmailValidationMessage().length() > 0);
+			        validationMessage = lp.getEmailValidationMessage();
 			    }
-
-			    System.out.println(validationMessage);
-
+			    
 			    Assert.assertTrue(validationMessage.length() > 0,
 			            "FAILED: Validation message not displayed for " + testCaseId);
 			}
-
 			// ERROR TEST CASES
 			else {
 

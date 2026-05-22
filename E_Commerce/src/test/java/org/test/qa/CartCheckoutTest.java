@@ -1,6 +1,7 @@
 package org.test.qa;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.pages.qa.CartCheckoutPage;
 import org.testng.Assert;
@@ -44,8 +45,11 @@ public class CartCheckoutTest extends ExtentManager {
         driver.findElement(By.xpath("//button[contains(text(),'Login')]"))
                 .click();
 
-        new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(d -> d.getCurrentUrl().contains("automationexercise"));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        wait.until(d -> d.getCurrentUrl().contains("automationexercise"));
+
+        // Wait for page to be fully loaded with Products link visible
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.linkText("Products")));
 
         Log.info("Login successful and home page loaded");
     }
