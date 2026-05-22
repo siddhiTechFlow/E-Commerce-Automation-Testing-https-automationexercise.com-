@@ -7,9 +7,12 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+
+import groovyjarjarantlr4.v4.parse.ANTLRParser.optionsSpec_return;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -33,6 +36,15 @@ public class BaseTest {
 		Logger.getLogger("org.openqa.selenium").setLevel(Level.OFF);
 
 		Logger.getLogger("org.openqa.selenium.devtools").setLevel(Level.OFF);
+		
+		ChromeOptions options = new ChromeOptions();
+		
+		//CI-safe Chrome Flags 
+		options.addArguments("--headless=new");
+		options.addArguments("--no-sandbox");
+		options.addArguments("");
+		options.addArguments("--disable-gpu");
+		options.addArguments("--window-size=1920,1080");
 
 		String bws = prop.getProperty("browser");
 
