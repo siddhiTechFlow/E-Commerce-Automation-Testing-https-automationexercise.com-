@@ -1,7 +1,12 @@
 package org.test.qa;
 
 import java.io.IOException;
+import java.time.Duration;
+
 import org.utils.qa.Log;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.pages.qa.HomePage;
 import org.pages.qa.LoginPage;
 import org.testng.Assert;
@@ -30,6 +35,9 @@ public class HomePageTest extends ExtentManager {
 
 	        lp.login("siddhi24104@gmail.com", "123456");
 
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+	        wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Products")));
+	        
 	        Log.info("LOGIN SUCCESSFUL");
 	    }
 
