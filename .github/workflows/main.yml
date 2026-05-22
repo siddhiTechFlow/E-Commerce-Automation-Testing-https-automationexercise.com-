@@ -54,10 +54,3 @@ jobs:
         with:
           name: testng-reports
           path: E_Commerce/target/surefire-reports
-
-      - name: Upload Extent Report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: extent-report
-          path: E_Commerce/Report/Extent.html
