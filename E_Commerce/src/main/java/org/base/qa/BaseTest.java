@@ -38,11 +38,10 @@ public class BaseTest {
 		Logger.getLogger("org.openqa.selenium.devtools").setLevel(Level.OFF);
 		
 		ChromeOptions options = new ChromeOptions();
-		
-		//CI-safe Chrome Flags 
+
 		options.addArguments("--headless=new");
 		options.addArguments("--no-sandbox");
-		options.addArguments("");
+		options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--disable-gpu");
 		options.addArguments("--window-size=1920,1080");
 
