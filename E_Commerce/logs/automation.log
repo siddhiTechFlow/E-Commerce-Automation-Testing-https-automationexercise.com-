@@ -9148,3 +9148,236 @@ Session ID: 1daf1d651bb134edb3c6bc845f682580
 2026-05-142 09:04:47 [main] INFO  org.utils.qa.Log - Proceeded to checkout
 2026-05-142 09:05:09 [main] ERROR org.utils.qa.Log - Test FAILED: verifyQuantity - capturing screenshot
 2026-05-142 09:05:09 [main] INFO  org.utils.qa.Log - Closing browser and ending test suite
+2026-05-142 09:17:20 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\LastRepo\E-Commerce-Automation-Testing-https-automationexercise.com-\E_Commerce\testng.xml] otherwise TestNG may fail or not work as expected.
+2026-05-142 09:17:20 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\LastRepo\E-Commerce-Automation-Testing-https-automationexercise.com-\E_Commerce\testng.xml
+
+2026-05-142 09:17:29 [main] INFO  org.utils.qa.Log - Browser launched successfully
+2026-05-142 09:17:30 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:17:30 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_001
+2026-05-142 09:17:30 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login functionality with valid email and valid password
+2026-05-142 09:17:30 [main] INFO  org.utils.qa.Log - TEST TYPE : positive
+2026-05-142 09:18:03 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_001
+2026-05-142 09:18:03 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:18:03 [main] ERROR org.utils.qa.Log - REASON : timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=148.0.7778.168)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b26a6764e656af84bc02baff97bc24a8, clickElement {id=f.ABF32A733BC568A3D8C3E3B2A4D7CE37.d.AC61EEF200D8B70819F948775CC5BC16.e.116}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Siddhi\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58919}, goog:processID: 6480, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58919/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b26a6764e656af84bc02baff97bc24a8)] -> xpath: //button[@data-qa='login-button']]
+Session ID: b26a6764e656af84bc02baff97bc24a8
+2026-05-142 09:18:03 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:18:03 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_002
+2026-05-142 09:18:03 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login functionality with valid email and invalid password
+2026-05-142 09:18:03 [main] INFO  org.utils.qa.Log - TEST TYPE : negative
+2026-05-142 09:18:18 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_002
+2026-05-142 09:18:18 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:18:18 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:18:19 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:18:19 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_003
+2026-05-142 09:18:19 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login functionality with invalid email and valid password
+2026-05-142 09:18:19 [main] INFO  org.utils.qa.Log - TEST TYPE : negative
+2026-05-142 09:18:34 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_003
+2026-05-142 09:18:34 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:18:34 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:18:35 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:18:35 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_004
+2026-05-142 09:18:35 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login functionality with invalid email and invalid password 
+2026-05-142 09:18:35 [main] INFO  org.utils.qa.Log - TEST TYPE : negative
+2026-05-142 09:18:50 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_004
+2026-05-142 09:18:50 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:18:50 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:18:50 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:18:50 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_005
+2026-05-142 09:18:50 [main] INFO  org.utils.qa.Log - SCENARIO : Verify validation when password field is left empty
+2026-05-142 09:18:50 [main] INFO  org.utils.qa.Log - TEST TYPE : validation
+2026-05-142 09:19:06 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_005
+2026-05-142 09:19:06 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:19:06 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:19:06 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:19:06 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_006
+2026-05-142 09:19:06 [main] INFO  org.utils.qa.Log - SCENARIO : Verify validation when email field is left empty
+2026-05-142 09:19:06 [main] INFO  org.utils.qa.Log - TEST TYPE : validation
+2026-05-142 09:19:22 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_006
+2026-05-142 09:19:22 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:19:22 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:19:22 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:19:22 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_007
+2026-05-142 09:19:22 [main] INFO  org.utils.qa.Log - SCENARIO : Verify validation when both email and password fields are left empty
+2026-05-142 09:19:22 [main] INFO  org.utils.qa.Log - TEST TYPE : validation
+2026-05-142 09:19:38 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_007
+2026-05-142 09:19:38 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:19:38 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:19:38 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:19:38 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_008
+2026-05-142 09:19:38 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login with invalid email format
+2026-05-142 09:19:38 [main] INFO  org.utils.qa.Log - TEST TYPE : validation
+2026-05-142 09:19:53 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_008
+2026-05-142 09:19:53 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:19:53 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:19:54 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:19:54 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_009
+2026-05-142 09:19:54 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login with password below minimum character limit
+2026-05-142 09:19:54 [main] INFO  org.utils.qa.Log - TEST TYPE : boundary
+2026-05-142 09:20:09 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_009
+2026-05-142 09:20:09 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:20:09 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:20:09 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:20:09 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_010
+2026-05-142 09:20:09 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login with password exceeding maximum allowed character limit
+2026-05-142 09:20:09 [main] INFO  org.utils.qa.Log - TEST TYPE : boundary
+2026-05-142 09:20:25 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_010
+2026-05-142 09:20:25 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:20:25 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:20:25 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:20:25 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_011
+2026-05-142 09:20:25 [main] INFO  org.utils.qa.Log - SCENARIO : Verify application security against SQL Injection attack
+2026-05-142 09:20:25 [main] INFO  org.utils.qa.Log - TEST TYPE : security
+2026-05-142 09:20:41 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_011
+2026-05-142 09:20:41 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:20:41 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:20:41 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:20:41 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_012
+2026-05-142 09:20:41 [main] INFO  org.utils.qa.Log - SCENARIO : Verify successful login after previous failed login attempts
+2026-05-142 09:20:41 [main] INFO  org.utils.qa.Log - TEST TYPE : regression
+2026-05-142 09:20:57 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_012
+2026-05-142 09:20:57 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:20:57 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:20:57 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:20:57 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_013
+2026-05-142 09:20:57 [main] INFO  org.utils.qa.Log - SCENARIO : Verify Enter key login
+2026-05-142 09:20:57 [main] INFO  org.utils.qa.Log - TEST TYPE : usability
+2026-05-142 09:21:12 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_013
+2026-05-142 09:21:12 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:21:12 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:21:12 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:21:12 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_014
+2026-05-142 09:21:12 [main] INFO  org.utils.qa.Log - SCENARIO : Verify Forgot Password functionality
+2026-05-142 09:21:12 [main] INFO  org.utils.qa.Log - TEST TYPE : bug
+2026-05-142 09:21:28 [main] ERROR org.utils.qa.Log - TEST FAILED : TC_014
+2026-05-142 09:21:28 [main] ERROR org.utils.qa.Log - EXCEPTION OCCURRED : TimeoutException
+2026-05-142 09:21:28 [main] ERROR org.utils.qa.Log - REASON : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/login']' (tried for 10 second(s) with 500 milliseconds interval)
+2026-05-142 09:21:39 [main] INFO  org.utils.qa.Log - Email field is displayed.
+2026-05-142 09:21:49 [main] INFO  org.utils.qa.Log - Password field is displayed.
+2026-05-142 09:22:06 [main] INFO  org.utils.qa.Log - Login button is displayed.
+2026-05-142 09:22:18 [main] INFO  org.utils.qa.Log - Title Matched.
+2026-05-142 09:22:58 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:22:58 [main] INFO  org.utils.qa.Log - Starting Product Search Test Suite
+2026-05-142 09:23:08 [main] INFO  org.utils.qa.Log - Opening Website
+2026-05-142 09:23:18 [main] INFO  org.utils.qa.Log - Login Successful
+2026-05-142 09:23:35 [main] INFO  org.utils.qa.Log - Ad Popup Checked
+2026-05-142 09:23:45 [main] INFO  org.utils.qa.Log - Navigated To Products Page
+2026-05-142 09:23:45 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:23:45 [main] INFO  org.utils.qa.Log - Fetching Excel Test Data
+2026-05-142 09:23:45 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:23:45 [main] INFO  org.utils.qa.Log - Executing Data Driven Test
+2026-05-142 09:23:45 [main] INFO  org.utils.qa.Log - Keyword : Top
+2026-05-142 09:23:45 [main] INFO  org.utils.qa.Log - Expected Min Result : 1.0
+2026-05-142 09:23:45 [main] INFO  org.utils.qa.Log - Should Have Result : TRUE
+2026-05-142 09:23:50 [main] INFO  org.utils.qa.Log - Actual Result Count : 14
+2026-05-142 09:23:50 [main] INFO  org.utils.qa.Log - Expected Product Found
+2026-05-142 09:23:50 [main] INFO  org.utils.qa.Log - Data Driven Test Completed
+2026-05-142 09:23:50 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:23:50 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:23:50 [main] INFO  org.utils.qa.Log - Executing Data Driven Test
+2026-05-142 09:23:50 [main] INFO  org.utils.qa.Log - Keyword : Dress
+2026-05-142 09:23:50 [main] INFO  org.utils.qa.Log - Expected Min Result : 1.0
+2026-05-142 09:23:50 [main] INFO  org.utils.qa.Log - Should Have Result : TRUE
+2026-05-142 09:23:53 [main] INFO  org.utils.qa.Log - Actual Result Count : 9
+2026-05-142 09:23:53 [main] INFO  org.utils.qa.Log - Expected Product Found
+2026-05-142 09:23:53 [main] INFO  org.utils.qa.Log - Data Driven Test Completed
+2026-05-142 09:23:53 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:23:53 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:23:53 [main] INFO  org.utils.qa.Log - Executing Data Driven Test
+2026-05-142 09:23:53 [main] INFO  org.utils.qa.Log - Keyword : Jeans
+2026-05-142 09:23:53 [main] INFO  org.utils.qa.Log - Expected Min Result : 1.0
+2026-05-142 09:23:53 [main] INFO  org.utils.qa.Log - Should Have Result : TRUE
+2026-05-142 09:23:56 [main] INFO  org.utils.qa.Log - Actual Result Count : 3
+2026-05-142 09:23:56 [main] INFO  org.utils.qa.Log - Expected Product Found
+2026-05-142 09:23:56 [main] INFO  org.utils.qa.Log - Data Driven Test Completed
+2026-05-142 09:23:56 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:23:56 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:23:56 [main] INFO  org.utils.qa.Log - Executing Data Driven Test
+2026-05-142 09:23:56 [main] INFO  org.utils.qa.Log - Keyword : Blue
+2026-05-142 09:23:56 [main] INFO  org.utils.qa.Log - Expected Min Result : 1.0
+2026-05-142 09:23:56 [main] INFO  org.utils.qa.Log - Should Have Result : TRUE
+2026-05-142 09:24:00 [main] INFO  org.utils.qa.Log - Actual Result Count : 7
+2026-05-142 09:24:00 [main] INFO  org.utils.qa.Log - Expected Product Found
+2026-05-142 09:24:00 [main] INFO  org.utils.qa.Log - Data Driven Test Completed
+2026-05-142 09:24:00 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:24:00 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:24:00 [main] INFO  org.utils.qa.Log - Executing Data Driven Test
+2026-05-142 09:24:00 [main] INFO  org.utils.qa.Log - Keyword : shirt
+2026-05-142 09:24:00 [main] INFO  org.utils.qa.Log - Expected Min Result : 1.0
+2026-05-142 09:24:00 [main] INFO  org.utils.qa.Log - Should Have Result : TRUE
+2026-05-142 09:24:06 [main] INFO  org.utils.qa.Log - Actual Result Count : 13
+2026-05-142 09:24:06 [main] INFO  org.utils.qa.Log - Expected Product Found
+2026-05-142 09:24:06 [main] INFO  org.utils.qa.Log - Data Driven Test Completed
+2026-05-142 09:24:06 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:24:06 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:24:06 [main] INFO  org.utils.qa.Log - Executing Data Driven Test
+2026-05-142 09:24:06 [main] INFO  org.utils.qa.Log - Keyword : SAREE
+2026-05-142 09:24:06 [main] INFO  org.utils.qa.Log - Expected Min Result : 1.0
+2026-05-142 09:24:06 [main] INFO  org.utils.qa.Log - Should Have Result : TRUE
+2026-05-142 09:24:09 [main] INFO  org.utils.qa.Log - Actual Result Count : 3
+2026-05-142 09:24:09 [main] INFO  org.utils.qa.Log - Expected Product Found
+2026-05-142 09:24:09 [main] INFO  org.utils.qa.Log - Data Driven Test Completed
+2026-05-142 09:24:09 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:24:09 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:24:09 [main] INFO  org.utils.qa.Log - Executing Data Driven Test
+2026-05-142 09:24:09 [main] INFO  org.utils.qa.Log - Keyword : T-shirt
+2026-05-142 09:24:09 [main] INFO  org.utils.qa.Log - Expected Min Result : 1.0
+2026-05-142 09:24:09 [main] INFO  org.utils.qa.Log - Should Have Result : TRUE
+2026-05-142 09:24:13 [main] INFO  org.utils.qa.Log - Actual Result Count : 3
+2026-05-142 09:24:13 [main] INFO  org.utils.qa.Log - Expected Product Found
+2026-05-142 09:24:13 [main] INFO  org.utils.qa.Log - Data Driven Test Completed
+2026-05-142 09:24:13 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:24:13 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:24:13 [main] INFO  org.utils.qa.Log - Executing Data Driven Test
+2026-05-142 09:24:13 [main] INFO  org.utils.qa.Log - Keyword : xyzabc123
+2026-05-142 09:24:13 [main] INFO  org.utils.qa.Log - Expected Min Result : 0.0
+2026-05-142 09:24:13 [main] INFO  org.utils.qa.Log - Should Have Result : FALSE
+2026-05-142 09:24:40 [main] INFO  org.utils.qa.Log - Actual Result Count : 0
+2026-05-142 09:24:40 [main] INFO  org.utils.qa.Log - No Product Found As Expected
+2026-05-142 09:24:40 [main] INFO  org.utils.qa.Log - Data Driven Test Completed
+2026-05-142 09:24:40 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:24:40 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:24:40 [main] INFO  org.utils.qa.Log - Executing Data Driven Test
+2026-05-142 09:24:40 [main] INFO  org.utils.qa.Log - Keyword : @#$%
+2026-05-142 09:24:40 [main] INFO  org.utils.qa.Log - Expected Min Result : 0.0
+2026-05-142 09:24:40 [main] INFO  org.utils.qa.Log - Should Have Result : FALSE
+2026-05-142 09:25:08 [main] INFO  org.utils.qa.Log - Actual Result Count : 0
+2026-05-142 09:25:08 [main] INFO  org.utils.qa.Log - No Product Found As Expected
+2026-05-142 09:25:08 [main] INFO  org.utils.qa.Log - Data Driven Test Completed
+2026-05-142 09:25:08 [main] INFO  org.utils.qa.Log - ========================================
+2026-05-142 09:25:08 [main] INFO  org.utils.qa.Log - Executing TC001 : verifySearchBoxVisible
+2026-05-142 09:25:08 [main] INFO  org.utils.qa.Log - Search Box Is Displayed
+2026-05-142 09:25:08 [main] INFO  org.utils.qa.Log - Executing TC002 : verifySearchButtonVisible
+2026-05-142 09:25:08 [main] INFO  org.utils.qa.Log - Search Button Is Displayed
+2026-05-142 09:25:08 [main] INFO  org.utils.qa.Log - Executing TC003 : searchValidProduct
+2026-05-142 09:25:08 [main] INFO  org.utils.qa.Log - Searching Product : Dress
+2026-05-142 09:25:19 [main] INFO  org.utils.qa.Log - Fetching Search Result Count
+2026-05-142 09:25:19 [main] INFO  org.utils.qa.Log - Valid Product Search Successful
+2026-05-142 09:25:19 [main] INFO  org.utils.qa.Log - Executing TC004 : verifySearchResultKeyword
+2026-05-142 09:25:19 [main] INFO  org.utils.qa.Log - Searching Product : Jeans
+2026-05-142 09:25:22 [main] INFO  org.utils.qa.Log - Keyword Verified Successfully
+2026-05-142 09:25:22 [main] INFO  org.utils.qa.Log - Executing TC005 : invalidSearch
+2026-05-142 09:25:22 [main] INFO  org.utils.qa.Log - Searching Invalid Product : xyz123
+2026-05-142 09:25:26 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\LastRepo\E-Commerce-Automation-Testing-https-automationexercise.com-\E_Commerce\testng.xml] otherwise TestNG may fail or not work as expected.
+2026-05-142 09:25:26 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\LastRepo\E-Commerce-Automation-Testing-https-automationexercise.com-\E_Commerce\testng.xml
+
+2026-05-142 09:25:35 [main] INFO  org.utils.qa.Log - Browser launched successfully
+2026-05-142 09:25:35 [main] INFO  org.utils.qa.Log - ================================================
+2026-05-142 09:25:35 [main] INFO  org.utils.qa.Log - TEST CASE STARTED : TC_001
+2026-05-142 09:25:35 [main] INFO  org.utils.qa.Log - SCENARIO : Verify login functionality with valid email and valid password
+2026-05-142 09:25:35 [main] INFO  org.utils.qa.Log - TEST TYPE : positive
+2026-05-142 09:25:49 [main] INFO  org.utils.qa.Log - Invalid Search Verified Successfully
+2026-05-142 09:25:49 [main] INFO  org.utils.qa.Log - Executing TC006 : openProductDetailPage
+2026-05-142 09:25:49 [main] INFO  org.utils.qa.Log - Searching Product : Top
+2026-05-142 09:25:52 [main] INFO  org.utils.qa.Log - Opening Product Detail Page
+2026-05-142 09:25:54 [main] INFO  org.utils.qa.Log - Product Detail Page Opened Successfully
+2026-05-142 09:25:54 [main] INFO  org.utils.qa.Log - Starting test setup and initializing driver
+2026-05-142 09:26:01 [main] INFO  org.utils.qa.Log - Navigating to login page
